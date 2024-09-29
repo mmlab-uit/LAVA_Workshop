@@ -18,7 +18,7 @@ We evaluated the data using pre-trained vision-language models in a zero-shot fa
 | 5  | InternVL2-26B        | 0.73         |
 | 6  | InternVL2-40B        | 0.77         |
 | 7  | InternVL2-Llama3-76B | 0.76         |
-| 8  | **QwenVL2-76B**      | **0.83**     |
+| 8  | **QwenVL2-72B**      | **0.83**     |
 
 
 ## 🗂️ Repository Structure
