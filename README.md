@@ -1,13 +1,21 @@
 # 🔥 LAVA Workshop Challenge Solution
 Welcome to the solution repository for the **LAVA Workshop** challenge! This repository contains the solution code for the LAVA Challenge (ACCV Workshop)
 
+## 👥 Team Members
+
+| NO | Name            | Email                  | Github                                            |
+|----|-----------------|------------------------|---------------------------------------------------|
+| 1  | Tran Gia Nghia  | nghiatg@uit.edu.vn     | [SoulOfWindTGN](https://github.com/SoulOfWindTGN) |
+| 2  | Luu Duc Tuan    | tuanld@uit.edu.vn      | [ldtuanAPCS](https://github.com/ldtuanAPCS)       |
+| 3  | Dang Van Thin   | thindv@uit.edu.vn      | [dangvanthin](https://github.com/dangvanthin)     |
+
 ## 📚 Challenge Overview
 The primary goal of LAVA challenge is to advance the capability of Large Vision-Language Models to accurately interpret and understand complex visual data such as Data Flow Diagrams (DFDs), Class Diagrams, Gantt Charts, and Building Design Drawing.
 
 For more details, visit the [LAVA Workshop Website](https://lava-workshop.github.io/).
 ## 🛠️ Solution Overview
 
-We evaluated the data using pre-trained vision-language models in a zero-shot fashion. We used several models, including both open-source and proprietary models. We tested several models, including both open-source and proprietary models. The results of our experiments are summarized in the table below:
+We evaluated the data using pre-trained vision-language models in a zero-shot fashion. We used several models, including both open-source and proprietary models. The results of our experiments are summarized in the table below:
 
 | NO | Model                | Public Score |
 |----|----------------------|--------------|
@@ -20,6 +28,14 @@ We evaluated the data using pre-trained vision-language models in a zero-shot fa
 | 7  | InternVL2-Llama3-76B | 0.76         |
 | 8  | **QwenVL2-72B**      | **0.83**     |
 
+We also experimented with ensembling the results from various models and achieved the outcomes shown in the table below.
+
+| NO | Model                                                                    | Public Score |
+|----|--------------------------------------------------------------------------|--------------|
+| 1  | InternVL2-(26B + 40B+ 76B)                                               | 0.77         |
+| 2  | InternVL2-(26B + 40B+ 76B) + Gemini-1.5-flash + Gpt-4o-mini              | 0.79         |
+| 3  | InternVL2-(26B + 40B+ 76B) + QwenV2-72B                                  | 0.8          |
+| 4  | InternVL2-(26B + 40B+ 76B) + Gemini-1.5-flash + Gpt-4o-mini + QwenV2-72B | 0.83         |
 
 ## 🗂️ Repository Structure
 Here's an overview of the files and directories in this repository:
@@ -32,7 +48,8 @@ Here's an overview of the files and directories in this repository:
 │   ├── Gemeni_baseline.py
 │   ├── InternVL2_baseline.py
 │   ├── MiniCPM_baseline.py
-│   └── Qwen_baseline.py           
+│   ├── Qwen_baseline.py
+│   └── GPT_baseline.py             
 ├── environment.yml       # List of dependencies
 └── README.md              # You are here!
 ```
