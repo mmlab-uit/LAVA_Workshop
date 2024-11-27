@@ -7,7 +7,7 @@ Welcome to the solution repository for the **LAVA Workshop** challenge! This rep
 |----|-----------------|------------------------|---------------------------------------------------|
 | 1  | Gia-Nghia Tran  | nghiatg@uit.edu.vn     | [SoulOfWindTGN](https://github.com/SoulOfWindTGN) |
 | 2  | Duc-Tuan Luu    | tuanld@uit.edu.vn      | [ldtuanAPCS](https://github.com/ldtuanAPCS)       |
-| 3  | Van-Thin Dang   | thindv@uit.edu.vn      | [dangvanthin](https://github.com/dangvanthin)     |
+| 3  | Dang-Van Thin   | thindv@uit.edu.vn      | [dangvanthin](https://github.com/dangvanthin)     |
 
 ## 📚 Challenge Overview
 The primary goal of LAVA challenge is to advance the capability of Large Vision-Language Models to accurately interpret and understand complex visual data such as Data Flow Diagrams (DFDs), Class Diagrams, Gantt Charts, and Building Design Drawing.
